@@ -1,5 +1,3 @@
-package lab4;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class RectangleTest {
