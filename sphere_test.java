@@ -1,5 +1,3 @@
-package B07Lab5.B07Lab5;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -14,6 +12,6 @@ class sphere_test {
     @Test
     void testGetSurfaceArea() {
         Sphere s = new Sphere(5);
-        assertTrue(Math.abs(s.getVolume() - 314.159) < 0.01);
+        assertTrue(Math.abs(s.getSurfaceArea() - 314.159) < 0.01);
     }
 }
