@@ -1,5 +1,3 @@
-import lab4.Point;
-
 public class Rectangle {
     Point A;
     Point B;
